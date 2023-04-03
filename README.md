@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# react Naver 영화 API 활용
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
 ## Available Scripts
 
