@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1400px) {
+    body{
+       display: block;
+    }
+}
