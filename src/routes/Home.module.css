@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,100;1,300&display=swap');
+.loading{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    font-weight: 300;
+    color:rgb(37, 37, 37);
+    top:50%; margin-top: -40px;
+    left:50%; margin-left: -50px;
+}
+.moviesContainer{
+    width:1300px;
+    margin-top:50px; margin-bottom:100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 100px;
+    column-gap: 10%;
+   
+}
+@media screen and (max-width:1400px) {
+    .moviesContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:850px){
+    .moviesContainer{
+        grid-template-columns: 1fr;
+        
+    }
+}

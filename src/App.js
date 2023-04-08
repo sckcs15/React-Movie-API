@@ -1,19 +1,19 @@
-import { useEffect, useState } from "react";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  } from "react-router-dom";
+  import Home from "./routes/Home";
+  import Detail from "./routes/Detail";
 function App() {
-  const [loading, setLoading] = useState(false);
-  const [movies, setMovies] = useState([]);
-  const getMovies =async ()=>{
-    const data = await (await fetch("")).json();
-    
-  }
-  useEffect(()=>{
-  });
- return(
-  <div>
-
-  </div>
- )
+ 
+ return (
+ <Router>
+  <Routes>
+    <Route path="/movie/:id" element={<Detail/>}/>
+    <Route path="/" element={<Home/>}/>
+  </Routes>
+ </Router>
+ );
 }
-
 export default App;

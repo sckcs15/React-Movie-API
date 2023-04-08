@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,100;1,300&display=swap');
+.movies{
+    font-family: 'Kanit', sans-serif;
+}
+.movies{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 100;
+    margin-bottom:20px;
+    box-shadow: 20px 20px  #706f6f11 ;
+}
+.movies__title >*{
+    color:#000;
+    text-decoration: none;
+}
+.movies__genres {
+    text-align: center;
+    list-style: none;
+    display: grid;
+  grid-template-columns: 120px 120px 120px;
+  column-gap: 10px;;
+  row-gap: 10px;
+    font-weight: 100;
+    color:#fff; 
+    padding-left: 0px;  
+}
+.movies__genres >li{
+    background-color:rgb(122, 20, 20);
+    border:8px solid rgb(122, 20, 20);
+    border-radius: 5px;
+}
+.movies__info{
+    margin-left:30px;
+}
+.movies__summary{
+    margin-bottom:40px;
+    width:400px;
+}
+.movies__img{
+ box-shadow: 15px 15px #706f6f11;   
+}
+@media screen and (max-width:1400px) {
+    .movies__genres{
+        font-size: 14px;
+        grid-template-columns: 30% 30% 30% ;
+    }
+}
