@@ -1,4 +1,4 @@
-# react Naver 영화 API 활용
+# react 영화 API 활용
 
 ---
 
